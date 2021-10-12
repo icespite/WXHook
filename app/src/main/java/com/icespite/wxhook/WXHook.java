@@ -78,13 +78,7 @@ public class WXHook implements IXposedHookLoadPackage {
                         @Override
                         protected void beforeHookedMethod(MethodHookParam param) throws Throwable {
                             XposedBridge.log(TAG + "BeforeSignHook: " + param.args[0] + " " + param.args[1] + " " + param.args[2] + " ");
-//                            super.beforeHookedMethod(param);
                             param.setResult(true);
-                        }
-
-                        @Override
-                        protected void afterHookedMethod(MethodHookParam param) throws Throwable {
-                            XposedBridge.log(TAG + "AfterSignHook: " + param.getResult());
                         }
                     });
         }
