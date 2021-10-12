@@ -1,4 +1,4 @@
-> 本仓库是[Hook微信分享时签名校验](https://blog.icespite.top/archives/105 a)中的代码
+> 本仓库是[Hook微信分享时签名校验](https://blog.icespite.top/archives/105)中的代码
 
 # 注意
 
@@ -8,6 +8,7 @@
 
 # TODO：
 
-1. 实现不同微信版本的动态（or 自动）hook
-2. 实现Hook功能的开关及可视化（主要针对Toast）
+- [ ] 实现不同微信版本的动态（or 自动）hook
+
+- [ ] 实现Hook功能的开关及可视化（主要针对Toast）
 
