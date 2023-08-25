@@ -12,3 +12,6 @@
 
 - [ ] 实现Hook功能的开关及可视化（主要针对Toast）
 
+# 新版本
+
+可使用此模块：https://cloud.icespite.top/s/JRc9
